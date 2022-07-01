@@ -1,0 +1,10 @@
+name: 🐛 Bug Report
+description: Something is wrong with Hanatour UI
+title: "[Bug]: "
+labels:
+  - bug
+- body:
+  - type: markdown
+    attributes:
+     values: |
+       

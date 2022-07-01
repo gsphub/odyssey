@@ -1,0 +1,25 @@
+{
+  "name": "gnb",
+  "version": "1.0.0",
+  "description": "Hanatour common module monorepo",
+  "private": true,
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .ts packages/*/{src,__tests__}/**.ts",
+    "format": "prettier --write --parser typescript \"packages/**/*.ts?(x)\"",
+    "build": "rollup -w"
+  },
+  "author": "Hanatour",
+  "devDependencies": {
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-replace": "^4.0.0",
+    "enquirer": "^2.3.6",
+    "execa": "^6.1.0",
+    "prettier": "^2.7.0",
+    "rollup": "^2.75.7",
+    "rollup-plugin-typescript2": "^0.32.1",
+    "typescript": "^4.7.4"
+  }
+}

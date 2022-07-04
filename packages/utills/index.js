@@ -14,7 +14,7 @@ if (wt_hnt_uid === undefined) {
 if (wt_serv_env === undefined) {
   var wt_serv_env = 'prd'
 }
-dd
+
 // wt_serv_env 안넣어줄 경우 강제적으로 설정
 // wt_serv_env = "prd";
 
@@ -267,7 +267,7 @@ function wtLogout() {
         document.cookie =
             'wtLogin=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=.hanatour.com'
         location.reload()
-    }) */aaaaaaafe
+    }) */
 }
 
 function getCookie(name) {
@@ -332,7 +332,7 @@ function isIOSApp() {
   let userAgent = navigator.userAgent
   return /iP(ad|hone|od)/.test(userAgent) ? 'Y' : 'N'
 }
-f
+
 function goBack() {
   // console.log(':::: history.length:', history.length)
   if (history.length === 1) {
@@ -1475,26 +1475,8 @@ var appInstall = {
   },
 }
 
-var getHntHeader = function (params) {
-  // if (params !== undefined) {
-  //   if (params.isHomeBtn == true) {
-  //     document.querySelector('#header .btn_home').style.display = 'inline'
-  //   } else {
-  //     document.querySelector('#header .btn_home').style.display = 'none'
-  //   }
-  // } else {
-  //   document.querySelector('#header .btn_home').style.display = 'none'
-  // }
-}
-
-window.onload = function () {
-  //공유하기
-  // document.querySelector('.btn_share').addEventListener('click', e => {
-  // })
-}
-
 window.onpageshow = function (e) {
-  //스케줄러 홈 최초 진입 - 스크롤 시, 헤더 색상 제어
+  // 플래너 홈 최초 진입 - 스크롤 시, 헤더 색상 제어
   if (location.href.indexOf('mscheduler.hanatour.com') > -1) {
     $(window).scroll(function () {
       $('.header_wrap').addClass('sched_home')

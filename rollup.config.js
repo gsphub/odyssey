@@ -5,6 +5,7 @@ import extensions from 'rollup-plugin-extensions'
 import prettier from 'rollup-plugin-prettier'
 import replace from '@rollup/plugin-replace'
 import { terser } from 'rollup-plugin-terser'
+import { formatDiagnosticsWithColorAndContext } from 'typescript'
 
 const PRETTY = !!process.env.PRETTY
 
@@ -18,7 +19,7 @@ function createBanner(libraryName, version) {
  * LICENSE.md file in the root directory of this source tree.
  *
  * @license MIT
- */`
+ */`formatDiagnosticsWithColorAndContext
 }
 
 function getVersion(sourceDir) {

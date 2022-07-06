@@ -1,0 +1,24 @@
+{
+  "folders": [
+    {
+      "name": "monorepo",
+      "path": "."
+    },
+    {
+      "name": "app-bar",
+      "path": "packages/app-bar"
+    },
+    {
+      "name": "footer",
+      "path": "packages/footer"
+    },
+    {
+      "name": "header",
+      "path": "packages/header"
+    }
+  ],
+  "settings": {},
+  "extensions": {
+    "recommendations": ["dbaeumer.vscode-eslint", "esbenp.prettier-vscode"]
+  }
+}

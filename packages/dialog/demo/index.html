@@ -14,13 +14,20 @@
       <p slot="content">Modal content</p>
     </h-modal>
 
+    <p>Some Paragraph</p>
+    <button>Show details</button>
+
     <button>Open Modal</button>
 
     <script>
-      const openButton = document.querySelector('button')
+      const confirmButton = document.querySelector('button')
       const modal = document.querySelector('modal')
 
-      openButton.addEventListener('click', () => {
+      modal.addEventListener('confirm', () => {})
+
+      modal.addEventListener('cancel', () => {})
+
+      confirmButton.addEventListener('click', () => {
         if (!modal.isOpen) {
           modal.open()
         }

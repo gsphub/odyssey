@@ -19,6 +19,12 @@
     {
       "name": "header",
       "path": "packages/header"
+    },
+    {
+      "path": "packages/badge"
+    },
+    {
+      "path": "packages/chip"
     }
   ],
   "settings": {},

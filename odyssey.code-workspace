@@ -1,8 +1,12 @@
 {
   "folders": [
     {
-      "name": "monorepo",
+      "name": "odyssey-monorepo",
       "path": "."
+    },
+    {
+      "name": "button",
+      "path": "packages/button"
     },
     {
       "name": "app-bar",

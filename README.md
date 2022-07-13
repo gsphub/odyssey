@@ -9,7 +9,17 @@ Odyssey contains foundational UI components.
 
 ## Development
 
-## Contribution
+## Contributing
+
+The main purpose of this repository is deliverying easy-to-use, tourish experience in design system.
+
+### Code of Conduct
+
+Please read our Code of Conduct.
+
+### Contributing Guide
+
+Please read our contributing guide.
 
 ## License
 

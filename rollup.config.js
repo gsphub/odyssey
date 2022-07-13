@@ -19,7 +19,7 @@ function createBanner(libraryName, version) {
  * LICENSE.md file in the root directory of this source tree.
  *
  * @license MIT
- */`formatDiagnosticsWithColorAndContext
+ */
 }
 
 function getVersion(sourceDir) {

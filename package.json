@@ -1,7 +1,12 @@
 {
-  "name": "gnb",
+  "name": "odyssey",
+  "description": "Odyssey Design System",
   "version": "1.0.0",
-  "description": "Hanatour common module monorepo",
+  "author": {
+    "name": "Hanatour",
+    "url": "www.hanatour.com"
+  },
+  "license": "MIT",
   "private": true,
   "type": "module",
   "main": "index.js",
@@ -11,7 +16,6 @@
     "format": "prettier --write --parser typescript \"packages/**/*.ts?(x)\"",
     "build": "rollup -w"
   },
-  "author": "Hanatour",
   "devDependencies": {
     "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-replace": "^4.0.0",

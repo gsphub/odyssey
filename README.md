@@ -1,7 +1,14 @@
+<!--
 ![odyssey-logo](./assets/logo_transparent.png#gh-dark-mode-only)
 ![odyssey-logo](./assets/logo_solid.png#gh-light-mode-only)
+-->
 
-# Odyssey
+<p align="center">
+  <a href="https://odyssey.github.io">
+    <img src="./assets/logo_transparent.png" height="500">  
+    <h1 align="center">Odyssey</h1>
+  </a>
+</p>
 
 Odyssey contains foundational UI components.
 

@@ -1,12 +1,22 @@
 {
-  "name": "common-header",
+  "name": "@hanatour/odyssey-dialog",
   "version": "1.0.0",
   "description": "",
+  "keywords": [
+    "odyssey",
+    "dialog"
+  ],
+  "homepage": "https://odyssey.github.io",
+  "bugs": {
+    "url": "https://github.com/gsphub/odyssey/issues/new/choose"
+  },
+  "license": "MIT",
+  "author": "Hanatour",
+  "repository": "hanatour/odyssey-dialog",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "clean": "rm -rf dist",
+    "build": "tsc && cp src/index.css dist/index.css",
+    "test": "karma start test/karma.config.cjs"
+  }
 }

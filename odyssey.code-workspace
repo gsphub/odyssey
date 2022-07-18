@@ -6,28 +6,28 @@
     },
     {
       "name": "button",
-      "path": "packages/button"
+      "path": "packages/components/button"
     },
     {
       "name": "app-bar",
-      "path": "packages/app-bar"
+      "path": "packages/components/app-bar"
     },
     {
       "name": "footer",
-      "path": "packages/footer"
+      "path": "packages/components/footer"
     },
     {
       "name": "header",
-      "path": "packages/header"
+      "path": "packages/components/header"
     },
     {
-      "path": "packages/badge"
+      "path": "packages/components/badge"
     },
     {
-      "path": "packages/chip"
+      "path": "packages/components/chip"
     },
     {
-      "path": "packages/dialog"
+      "path": "packages/components/dialog"
     }
   ],
   "settings": {},
